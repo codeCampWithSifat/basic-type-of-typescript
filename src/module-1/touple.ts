@@ -7,7 +7,7 @@
 // isUser.push("Sany")
 // console.log(isUser)
 
-const user:[string,number] = ["Sifat",420]
-const user2:[boolean,string,string,number] = [false,"Nur","Saifa", 2]
+// const user:[string,number] = ["Sifat",420]
+// const user2:[boolean,string,string,number] = [false,"Nur","Saifa", 2]
 
-console.log(user2[3])
+// console.log(user2[3])
