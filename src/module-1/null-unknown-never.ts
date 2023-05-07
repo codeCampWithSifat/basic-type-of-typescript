@@ -16,10 +16,9 @@ function getCarSpeed(speed:unknown) {
     } else if (typeof speed === "string") {
         const [value,unit] = speed.split(" ")
         const convertedSpeed = ((Number(value)*1000)/3600).toFixed(3)
-        return convertedSpeed
+        return `The String Speed ${convertedSpeed}`
     } else {
         return 'This is not a number'
     }
 }
-
-console.log(getCarSpeed("Sifat"))
+console.log(getCarSpeed("250"))
